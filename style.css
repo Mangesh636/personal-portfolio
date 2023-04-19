@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rajdhani&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 16px 16px;
+}
+ul li a{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    margin-top: -3%;
+    transition: .4s ease;
+}
+ul li a:hover{
+    color: #dc143c;
+    font-family: 'Rajdhani', sans-serif;
+}
+.information{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.information h1{
+    font-size: 68px;
+    color: #000;
+}
+.information h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+.information span{
+    color: #000;
+    transition: .2s ease;
+}
+.information span:hover{
+    color: #dc143c;
+}
+.information a{
+    text-decoration: none;
+    color: #fff;
+    background: #dc143c;
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .2s ease;
+}
+.information a:hover{
+    color: #dc143c;
+    background: #000;
+}
+.icon a{
+    text-decoration: none;
+    color: #000;
+}
+.icon .fa-brands{
+    margin-left: 7%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+}
+.icon .fa-facebook:hover{
+    color: #0554f4;
+}
+.icon .fa-linkedin:hover{
+    color: #0554f4;
+}
+.icon .fa-instagram:hover{
+    color: #ffb6c1;
+}
