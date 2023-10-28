@@ -1,3 +1,3 @@
 # personal-portfolio
 
-![Portfolio](PortFolio Preview.jpeg)
+![Portfolio] (PortFolio Preview.jpeg)
